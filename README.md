@@ -1,0 +1,22 @@
+Streams
+
+This application is a clone of Twitch. The application features the following architecture:
+- React application which will allow users to add, edit, delete, and view channels
+- A web server which knows which streams are currently broadcasting
+- A Real Time Messaging Protocol server (RTMP)
+
+High level user experience
+- User can see a list of available streams whether logged in to the application or not
+- The user then selects a stream to view 
+- This action then sends off a request to the RTMP server to render the video that was selected
+
+Notable features
+- Navigation - React Router is used to control what content is rendered based on specific route
+- Authentication - Google oAuth
+
+Main Routes
+1) Main landing page - displays initial content when user is not logged in
+2) Page to render video content to user
+3) Landing page which displays different content if the user is logged in
+4) Form to create, edit, or delete a stream
+
