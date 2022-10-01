@@ -20,3 +20,7 @@ Main Routes
 3) Landing page which displays different content if the user is logged in
 4) Form to create, edit, or delete a stream
 
+Google Authentication
+- Component stores the sign-in status of the user as state
+- Helper methods defined to sign user in, sign user out, modify state, and render correct auth button (sign-in or sign-out)
+
