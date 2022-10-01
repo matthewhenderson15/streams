@@ -24,3 +24,7 @@ Main Routes
 Google Authentication
 - Component stores the sign-in status of the user as state
 - Helper methods defined to sign user in, sign user out, modify state, and render correct auth button (sign-in or sign-out)
+
+API Server
+- JSON server used
+- db.json file tracks all available streams that can be accessed by the client app
